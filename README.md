@@ -1,8 +1,4 @@
-Always show details
-
-Copy
-# Let's create a README.txt file with the provided cleaned-up content.
-readme_content = """# PDF Chat App
+# PDF Chat App
 
 A web application where users can **upload PDFs** and **ask questions**, with answers generated **only from the content of the uploaded PDFs**.
 
@@ -28,9 +24,9 @@ A web application where users can **upload PDFs** and **ask questions**, with an
 - Retrieval & Answering: LangChain
 
 ## Installation
-git clone[ <repo_url>](https://github.com/Manasa-iota/chatPdf.git)
-cd chatPdf
-pip install -r requirements.txt
+- git clone https://github.com/Manasa-iota/chatPdf.git
+- cd chatPdf 
+- pip install -r requirements.txt
 
 ## Usage
 streamlit run app.py
@@ -38,4 +34,3 @@ streamlit run app.py
 1. Upload your PDF(s) via the UI.
 2. Ask your question in the input box.
 3. Get context-aware answers instantly.
-"""
